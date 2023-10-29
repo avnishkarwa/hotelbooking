@@ -1,0 +1,47 @@
+
+.hidden {
+    display: none;
+}
+
+#loginPage, #blocksPage {
+    text-align: center;
+    margin: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+#blocksContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.block.green {
+    background-color: green;
+}
+
+.block .details {
+    display: none;
+}
+
+.block.marked .details {
+    display: block;
+}
+
+.details input {
+    margin: 5px;
+}
